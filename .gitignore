@@ -1,0 +1,21 @@
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+*.terraform*
+terraform-aws/prometheus-stack/.terraform/providers/registry.terraform.io/hashicorp/aws/5.29.0/windows_amd64/terraform-provider-aws_v5.29.0_x5.exe
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+*.pub
+*.pem
+*.ppk
+*.key
+
+*IaC-*
+
+### SSH ###
+**/.ssh/id_*
+**/.ssh/*_id_*
+**/.ssh/known_hosts
