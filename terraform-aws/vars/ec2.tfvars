@@ -1,14 +1,14 @@
 # EC2 Instance Variables
 region         = "us-west-1"
-ami_id         = "ami-0da7657fe73215c0c"
+ami_id         = "ami-"
 instance_type  = "t2.micro"
 key_name       = "prom"
 instance_count = 1
 volume-size = 10
 
 # VPC id
-vpc_id  = "vpc-0d27ee9558bf371f1"
-subnet_ids     = ["subnet-04829ea5f138a6490"]
+vpc_id  = "vpc-"
+subnet_ids     = ["subnet-"]
 
 # Ec2 Tags
 name        = "prometheus-stack"
